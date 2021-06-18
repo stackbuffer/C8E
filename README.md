@@ -1,4 +1,4 @@
-# C8E - A Chip 8 emulator written using SDL2 in C++
+# C8E - A Chip 8 emulator written in C++
 
 
 ### Screenshot
