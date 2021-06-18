@@ -26,5 +26,5 @@ Cowgod's CHIP-8 Technical Referrence - http://devernay.free.fr/hacks/chip8/C8TEC
 I shamelessly copied the giant switch statement in ```cpu.cpp``` from https://github.com/JamesGriffin/CHIP-8-Emulator
 
 
-### Contribution
+### Contributions
 All contributions that won't break the code are accepted.
