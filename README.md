@@ -12,7 +12,7 @@ Make sure that you have ```SDL2``` installed on your OS.
 
 On Windows, run the following command, you might need to change the ```C:/MinGW/include/``` and ```C:/MinGW/lib``` to wherever your ```SDL``` source files are present.
 
-```g++.exe -c src/*.cpp -std=c++14 -g -Wall -I ./ -I C:/MinGW/include/ && g++.exe *.o -o ./main -L C:/MinGW/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image```
+```g++.exe -c src/*.cpp -std=c++14 -g -Wall -I ./ -I C:/MinGW/include/ && g++.exe *.o -o ./main -L C:/MinGW/lib -lmingw32 -lSDL2main -lSDL2```
 
 On Linux, I never tried it. I think removing ```.exe``` and changing ```C:/MinGW/include/``` and ```C:/MinGW/lib``` to wherever your ```SDL``` source files are present from the above command will just work fine. Also don't forget to remove ```windows.h``` header from ```main.cpp``` file.
 
